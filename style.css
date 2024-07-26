@@ -20,7 +20,7 @@
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
-    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
 @media (min-width: 800px) {
@@ -262,6 +262,7 @@ header {
         min-width: 250px;
         position: relative;
         z-index: 2;
+        border: none;
 
     }    
     
@@ -272,7 +273,7 @@ header {
         text-align: right;
         position: relative;
         left: -1.5em;
-        width: calc(100% + 1.5em);
+        width: calc(100% + 4em);
     }
 }
 
