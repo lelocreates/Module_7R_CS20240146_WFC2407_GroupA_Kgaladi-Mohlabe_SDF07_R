@@ -25,7 +25,7 @@
 
 @media (min-width: 800px) {
     :root {
-        --fs-h1: 4.5;
+        --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
         --fs-body: 1.125rem;
@@ -53,7 +53,7 @@ section {
 
 img {
     display: block;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 strong { font-weight: var(--fw-bold);}
@@ -239,6 +239,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    border: none;
 }
 
 .section__subtitle--intro {
@@ -273,7 +274,7 @@ header {
         text-align: right;
         position: relative;
         left: -1.5em;
-        width: calc(100% + 4em);
+        width: calc(100% + 6em);
     }
 }
 
